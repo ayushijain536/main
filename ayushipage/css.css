@@ -1,0 +1,56 @@
+
+*{ margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border:10px solid rgb(13, 3, 69);
+    background-color: rgba(240, 25, 172, 0.381);
+    height: 1300px;
+}
+.row{margin: 0 auto;
+}
+.top{display: flex;
+}
+.heading5{margin-left: 170px;
+          font-size: 40px;
+          font-weight: bold;
+}
+footer{
+    margin-top: 80px;
+    margin-left: 1050px;
+}
+.heading2{
+    font-size: 38px;
+    margin-top: 40px;
+}
+.ayushi{
+    margin-top: 320px;
+    margin-left: 120px;
+}
+.img{ width: 250px;
+      margin-top: 50px;
+      margin-left: 90px;
+      border-radius: 50%;
+      overflow: hidden;
+
+}
+.bio{      margin-left: 90px;
+          margin-top: 40px;
+}
+.bio h3{
+    font-size: 24px;
+}
+.bio ul{
+    margin-top: 10px;
+    margin-left: 18px;
+    font-weight: bold;
+}
+#apj{font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.content{
+    margin-left: 90px;
+
+}

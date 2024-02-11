@@ -1,0 +1,26 @@
+.container{
+}
+body{
+    background-color: rgba(128, 128, 128, 0.633);
+}
+*{ margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+ }
+ .top{ background-color: white;
+    max-width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+ }
+ h1{
+    margin-left: 120px;
+ }
+ .web{ font-size: 25px;
+ }
+ .form_container{ display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap: 20px;
+ }
+ 

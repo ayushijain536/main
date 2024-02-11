@@ -1,0 +1,111 @@
+body{
+    line-height: 1.4;
+
+}
+nav{
+    box-shadow: 4px 4px 4px rgba(1,1,1,0.05);
+    position: sticky;
+    margin-bottom: 32px;
+    background: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.navcontainer{
+    max-width: 1500px;
+    display: flex;
+    
+}
+.icon{
+    font-size: 33px;
+    margin-left: 1344px;
+    margin-top: 8px;
+}
+.hero{
+    display: flex;
+    gap: 10%;
+}
+.tag{ margin-top:20px ;
+text-align: center;
+padding: 5px;
+color: white;}
+.pic img{
+       border-radius: 50% ;
+       height: 330px;
+       margin-left: 150px;
+       width: 400px;
+}
+.content{font-size: 25px;
+      width: 500px;
+      height: 350px;  
+}
+.box{
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+}
+.explore{
+    background: #ffc066;
+    border: none;
+    align-self: flex-start; 
+}
+/* for responsive*/
+@media(max-width :786px){
+
+}
+.features{height: 110px;
+    width: 770px;
+    display: flex;
+    margin-left: 390px;
+    margin-top: 69px;
+    justify-content: center;
+
+}
+.feature{ padding: 10px;
+    display: flex;
+    margin-left: 20px;
+}
+.feature:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+
+}
+.menubtn{    background:green;
+    border: none;
+    color: white;
+}
+.menu{display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+                         aspect-ratio: 9/3;
+}
+
+.item1{
+    grid-area: i1;
+}
+.item2{
+    grid-area: i2;
+}
+.item3{
+    grid-area: i3;
+}
+.item4{
+    grid-area: i4;
+    width: 5px;
+}
+.item5{
+    grid-area: i5;
+}
+.item6{
+    grid-area: i6;
+}
+.item7{
+    grid-area: i7;
+}
