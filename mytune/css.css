@@ -1,0 +1,44 @@
+.navbar{ background-color: rgb(60, 8, 82);
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+.mytune{
+    color: rgba(255, 255, 255, 0.912);
+    font-size: 24px;
+    margin-right: 950px;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+.mytone{color: white;
+        font-size: 40px;
+}
+.first{  height: 700px;
+    background-image: url(/img/music.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.mytunes{  text-align: center;
+        padding-top: 210px; 
+        font-size: 70px;
+        color: white;
+        font-weight: 800;
+        letter-spacing: 3px;
+}
+.text1{ color: white;
+        padding-top: 40px; 
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: 1px;
+}
+.p1{        text-align: center;
+    color: white;
+    padding-top: 10px; 
+}
+.second{    background-color: rgb(60, 8, 82);
+}
+.music{
+    color: white;
+    text-align: center;
+}
