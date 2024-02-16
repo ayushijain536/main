@@ -37,8 +37,18 @@
     padding-top: 10px; 
 }
 .second{    background-color: rgb(60, 8, 82);
-}
+    height: 300px;
+    text-align: center;
+ }
 .music{
     color: white;
     text-align: center;
+    font-size: 30px;
+    margin-top: 270px;
+}
+.musicpera{    color: white;
+            font-size: 17px;
+}
+.musicline{ color: white;
+    font-size: 20px;
 }
